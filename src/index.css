@@ -24,6 +24,7 @@ p {
   margin: 0;
 }
 
+/* -- Metodología BEM para el nav -- */
 /* Estilos relacionados al Menú Principal */
 nav {
   font-size: 22px;
@@ -32,23 +33,23 @@ nav {
   background-color: #EDF9D7 !important;
 }
 
-.barraNav{
+.navbar__nav{
   width:100%;
 }
 
-.menuBar{
+.navbar__nav__navlink{
   min-width:200px;
   text-align:center;
   color: rgba(0,0,0,.55);
   text-decoration: none;
 }
 
-.menuBar:hover{
+.navbar__nav__navlink:hover{
   background-color: #C18864;
   color: #502b1c;
 }
 
-.menuBarActive{
+.navbar__nav__navlink--active{
   background-color: #8dcc1760;
   color: #145430;
 }
@@ -57,7 +58,7 @@ nav {
   padding-top: 8px;
 }
 
-.subMenuBar{
+.navbar__nav__navlink__subMenuBar{
   display: block;
   width: 100%;
   padding: .25rem 1rem;
